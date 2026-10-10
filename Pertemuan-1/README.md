@@ -19,7 +19,8 @@
 
 **Bukti Eksekusi (Screenshot):**
 * **Before** *(Kondisi awal / Kesalahan kompilasi)*:
-(<)
+(<img width="604" height="403" alt="image" src="https://github.com/user-attachments/assets/cdd0e8a8-058c-4a99-abe1-812d8d96dd53" />
+)
 
 * **After** *(Kondisi akhir / Eksekusi berhasil)*:
 (<img width="506" height="428" alt="image" src="https://github.com/user-attachments/assets/73a47caa-c402-4283-b7cb-bcea6ddc66cd" />
