@@ -39,7 +39,8 @@
 
 **Bukti Eksekusi (Screenshot):**
 * **Before** *(Kondisi awal / Galat logika)*:
-(<)
+(<img width="1186" height="891" alt="WhatsApp Image 2026-10-10 at 17 12 59" src="https://github.com/user-attachments/assets/8eeb3e85-49b3-444c-9522-d787a6188a54" />
+)
 
 * **After** *(Kondisi akhir / Eksekusi berhasil)*:
 (<img width="334" height="412" alt="image" src="https://github.com/user-attachments/assets/15d2d9db-7a3d-498b-a2a5-6dbff27734f0" />)
