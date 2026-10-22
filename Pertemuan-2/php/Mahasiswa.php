@@ -19,14 +19,16 @@ class Mahasiswa
      * Constructor property promotion (PHP 8):
      * readonly adalah padanan `final` pada atribut Java.
      */
+    public string $nim;
+
     public function __construct(
-        private readonly string $nim,
-        private readonly string $nama,
-        private float $nilaiTugas,
-        private float $nilaiUts,
-        private float $nilaiUas,
+        string $nim,
+        public string $nama,
+        public float $nilaiTugas,
+        public float $nilaiUts,
+        public float $nilaiUas
     ) {
-        $nimTrimmed = trim($this->nim);
+        $nimTrimmed = trim($nim);
         if ($nimTrimmed === '') {
             throw new InvalidArgumentException('NIM tidak boleh kosong.');
         }
@@ -36,7 +38,6 @@ class Mahasiswa
         self::pastikanNilaiSah('nilaiUts', $this->nilaiUts);
         self::pastikanNilaiSah('nilaiUas', $this->nilaiUas);
     }
-
     private static function pastikanNilaiSah(string $namaKomponen, float $nilai): void
     {
         if ($nilai < self::NILAI_MIN || $nilai > self::NILAI_MAX) {

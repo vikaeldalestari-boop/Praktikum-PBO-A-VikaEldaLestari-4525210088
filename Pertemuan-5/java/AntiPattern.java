@@ -25,7 +25,7 @@ public class AntiPattern {
             default -> throw new IllegalArgumentException("Bangun tidak dikenal: " + bangun);
         };
     }
-
+se
     public static void main(String[] args) {
         Object[] daftar = {
             new LingkaranData(7),
